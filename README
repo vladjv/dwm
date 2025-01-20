@@ -18,7 +18,8 @@ necessary as root):
 
     make clean install
 
-
+To enable ASUS ROG Zephyrus features, enter the following command:
+    make clean install __ASUS_AURA__=1
 Running dwm
 -----------
 Add the following line to your .xinitrc to start dwm using startx:
